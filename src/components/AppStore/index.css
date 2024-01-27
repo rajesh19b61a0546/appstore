@@ -1,0 +1,38 @@
+.bg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(#fff1eb, #ace0f9);
+}
+.heading {
+  font-size: 30px;
+  color: #1e293b;
+}
+.search-icon {
+  width: 30px;
+}
+.search-container {
+  display: flex;
+  justify-content: center;
+  min-width: 70%;
+}
+.search {
+  min-width: 50%;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
+.u {
+  list-style-type: none;
+  display: flex;
+  min-width: 40%;
+  justify-content: space-around;
+  border-style: none;
+}
+.u1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 900px;
+}
